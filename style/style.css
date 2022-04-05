@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body{
+    background-image: url(/churrascometro/img/sortidas-deliciosas-carnes-e-legumes-grelhados-com-salada-fresca-e-molho-de-churrasco-na-tabua-sobre-fundo-de-madeira-grande-conjunto-de-pratos-de-carne-quente_13542.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: #3B4958;
+    font-family: 'Lobster', cursive;
+}
+
+.container{
+    position: absolute;
+    background-color: #fbfbfcf1;
+    max-width: 800px;
+    width: 60%;
+    height: 80%;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+}
+h1{
+    font-size: 4vw;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+input{
+    width: 90%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+#resultado{
+    font-size: 2.5em;
+}
+p{
+    font-size: 2em;
+}
+img{
+    width: 30px;
+}
+
+@media (max-width : 1200px) {
+    h1{
+        font-size: 3em;
+    }
+}
+@media (max-width : 600px) {
+    .container{
+        max-width: 600px;
+        background-color: #fbfbfcc2;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        border-radius: 0;
+    }
+}
